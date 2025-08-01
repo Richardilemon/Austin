@@ -13,6 +13,7 @@ Produce a schema-aligned and validated permit dataset for ingestion into Constru
 📊 Processing Summary:
 - Total records fetched: 2,315,095
 - Valid records written: 2,315,095
+- Total records per batch: 40000 (API limit is 50000)
 - Invalid/anomalous records: 0
 - File size: ~4GB
 
@@ -35,7 +36,7 @@ Produce a schema-aligned and validated permit dataset for ingestion into Constru
 - README + Summary Report (this file)
 
 📽️ Video:
-- walkthrough: [link-to-loom]
+- walkthrough: https://www.loom.com/share/043773a7cb5e4065a2853de8f601dcc2?sid=72b90db3-b3f0-42bd-aa35-0929aa57b6b5
 
 
 Date: August 1, 2025
