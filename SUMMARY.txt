@@ -35,9 +35,8 @@ Produce a schema-aligned and validated permit dataset for ingestion into Constru
 - README + Summary Report (this file)
 
 📽️ Video:
-- Mid-sprint walkthrough: [link-to-loom]
-- Final walkthrough: [link-to-loom]
+- walkthrough: [link-to-loom]
 
-Prepared by: Temitope Richards
+
 Date: August 1, 2025
 

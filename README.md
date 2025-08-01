@@ -58,8 +58,3 @@ Prepare a cleaned and schema-aligned staging file (`austin_cleaned.json`) for th
 
 ---
 
-## ✅ Next Steps
-
-- Pass cleaned file into ConstructIQ normalization engine
-- Finalize Sprint 2 goals (possibly deduping, enrichments, or joining with additional datasets)
-
