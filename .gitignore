@@ -1,0 +1,5 @@
+outputs/
+# Ignore output files
+logs.zip
+outputs.zip
+.venv/

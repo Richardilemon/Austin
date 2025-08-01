@@ -1,0 +1,43 @@
+🧾 AUSTIN PERMIT CLEANING SUMMARY — SPRINT 1
+
+🎯 Goal:
+Produce a schema-aligned and validated permit dataset for ingestion into ConstructIQ’s normalization engine.
+
+📌 Status:
+✅ Completed
+
+📦 Data Source:
+- Endpoint: https://data.austintexas.gov/resource/3syk-w9eu.json
+- Format: JSON
+
+📊 Processing Summary:
+- Total records fetched: 2,315,095
+- Valid records written: 2,315,095
+- Invalid/anomalous records: 0
+- File size: ~4GB
+
+🧹 Cleaning Actions:
+- Enforced required field: `permit.number`
+- Normalized date fields (`issued`, `applied`, etc.)
+- Converted numeric values with `safe_float`
+- Nested structure built to match Pydantic model
+- Standardized addresses and applied fallback defaults
+
+🔐 Validation:
+- Used Pydantic `PermitRecord` schema
+- Strict type validation via `models.py`
+- Root-level validator enforces required `permit.number`
+
+📁 Deliverables:
+- `austin_cleaned.json`
+- `models.py`
+- ETL script: `load_austin.py`
+- README + Summary Report (this file)
+
+📽️ Video:
+- Mid-sprint walkthrough: [link-to-loom]
+- Final walkthrough: [link-to-loom]
+
+Prepared by: Temitope Richards
+Date: August 1, 2025
+
